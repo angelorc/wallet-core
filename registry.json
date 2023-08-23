@@ -4355,5 +4355,35 @@
       "rpc": "https://neon-proxy-mainnet.solana.p2p.org/",
       "documentation": "https://docs.neonfoundation.io/docs/quick_start"
     }
+  },
+  {
+    "id": "bitsong",
+    "name": "BitSong",
+    "displayName": "BitSong",
+    "coinId": 639,
+    "symbol": "BTSG",
+    "decimals": 6,
+    "blockchain": "Cosmos",
+    "chainId": "bitsong-2b",
+    "derivation": [
+      {
+        "path": "m/44'/639'/0'/0/0"
+      }
+    ],
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1",
+    "hrp": "bitsong",
+    "addressHasher": "sha256ripemd",
+    "explorer": {
+      "url": "https://www.mintscan.io/bitsong",
+      "txPath": "/txs/",
+      "accountPath": "/account/"
+    },
+    "info": {
+      "url": "https://bitsong.io/",
+      "source": "https://github.com/bitsongofficial/go-bitsong",
+      "rpc": "https://rpc.explorebitsong.com/",
+      "documentation": "https://docs.bitsong.io"
+    }
   }
 ]

@@ -375,6 +375,8 @@ TEST(Coin, DeriveAddress) {
         case TWCoinTypeSei:
             EXPECT_EQ(address, "sei1hkfq3zahaqkkzx5mjnamwjsfpq2jk7z05hw42q");
             break;
+        case TWCoinTypeBitSong:
+            EXPECT_EQ(address, "bitsong1rjkqxle7xe32fz05h4nsgxx9kfpejddxy376se")
             // no default branch here, intentionally, to better notice any missing coins
         }
     }
